@@ -24,7 +24,10 @@
           <e p="Player.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="Bar.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
             <e p="NextWave.cs" t="Include" />
+            <e p="ProgressBar.cs" t="Include" />
           </e>
           <e p="Weapon" t="Include">
             <e p="Pistol.cs" t="Include" />
