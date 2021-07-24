@@ -6,6 +6,21 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="AttackState.cs" t="Include" />
+            <e p="CelebrationState.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="MoveState.cs" t="Include" />
+            <e p="State Machine" t="Include">
+              <e p="EnemyStateMachine.cs" t="Include" />
+              <e p="State.cs" t="Include" />
+              <e p="Transition.cs" t="Include" />
+            </e>
+            <e p="Transitions" t="Include">
+              <e p="DistanceTransition.cs" t="Include" />
+              <e p="TargetDieTransition.cs" t="Include" />
+            </e>
+          </e>
           <e p="Player.cs" t="Include" />
           <e p="Weapon" t="Include">
             <e p="Pistol.cs" t="Include" />
