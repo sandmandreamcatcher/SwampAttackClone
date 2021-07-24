@@ -7,11 +7,16 @@ public class DistanceTransition : Transition
 
     private void Start()
     {
-        _transitionRange += Random.Range(-_rangeSpread,_rangeSpread);
+        _transitionRange += Random.Range(-_rangeSpread, _rangeSpread);
     }
 
     private void Update()
     {
+        if (Target == null) 
+        {
+            return;
+        }
+        
         if (Vector2.Distance(transform.position, Target.transform.position) < _transitionRange)
         {
             NeedTransit = true;
