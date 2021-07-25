@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
+          <e p="BulletDestroyer.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="AttackState.cs" t="Include" />
             <e p="CelebrationState.cs" t="Include" />
@@ -31,11 +32,13 @@
           <e p="UI" t="Include">
             <e p="Bar.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
             <e p="NextWave.cs" t="Include" />
             <e p="ProgressBar.cs" t="Include" />
           </e>
           <e p="Weapon" t="Include">
             <e p="Pistol.cs" t="Include" />
+            <e p="Shotgun.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
           </e>
         </e>
