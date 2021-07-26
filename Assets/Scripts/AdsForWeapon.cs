@@ -7,8 +7,8 @@ public class AdsForWeapon : MonoBehaviour, IUnityAdsListener
     [SerializeField] private GameObject watchAd;
     [SerializeField] private Player _player;
 
-    private string gameId = "4233387";
-    private string myPlacementId = "Rewarded_Android";
+    private string gameId = "";
+    private string myPlacementId = "";
     private bool testMode = true;
     private IUnityAdsListener _unityAdsListenerImplementation;
 
