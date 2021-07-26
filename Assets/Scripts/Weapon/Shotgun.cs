@@ -25,7 +25,6 @@ public class Shotgun : Weapon
 
         for (int i = 0; i < _bulletsInShoot; i++)
         {
-
             Instantiate(Bullet, new Vector2(_shootPositions[i].position.x, _shootPositions[i].position.y + currentPos), Quaternion.identity);
             currentPos += 0.05f;
         }
