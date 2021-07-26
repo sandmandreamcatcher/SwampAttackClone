@@ -5,6 +5,8 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AdsForWeapon.cs" t="Include" />
+          <e p="AdsInit.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="BulletDestroyer.cs" t="Include" />
           <e p="Enemy" t="Include">

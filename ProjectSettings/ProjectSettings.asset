@@ -736,10 +736,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 518afca2-56f5-4911-af76-16a796d06871
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: SwampAttacks (1)
+  organizationId: unity_ep7b5jpvypbxbw
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
