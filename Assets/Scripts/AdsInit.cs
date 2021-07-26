@@ -4,7 +4,7 @@ using UnityEngine.Advertisements;
 
 public class AdsInit : MonoBehaviour
 {
-    private string gameId = "4233387";
+    private string gameId = "";
     private bool testMode = true;
     
     void Start()
